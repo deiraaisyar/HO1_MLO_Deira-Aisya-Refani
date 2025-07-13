@@ -28,7 +28,7 @@ After scraping, selected columns undergo structured text preprocessing to clean 
 
 🔧 Preprocessing Steps (Full Pipeline)
 The following transformations are applied only to selected text-based columns (title, primary_description, secondary_description, tertiary_description, and skill) to prepare them for vectorization:
-- Remove HTML tags – Strip any embedded HTML elements (e.g., <b>, <br>) from descriptions.
+- Remove HTML tags – Strip any embedded HTML elements (e.g., `<b>`, `<br>`) from descriptions.
 - Lowercasing – Convert all text to lowercase to ensure uniformity.
 - Remove punctuation & special symbols – Keep only alphanumeric characters and whitespace.
 - Stopword removal – Remove common English stopwords such as "the", "and", "is", etc.
