@@ -59,3 +59,5 @@ This is intentional, as handling strategies (e.g., imputation, removal, or flagg
 
 📁 Output
 Cleaned dataset exported as edx_courses.csv, ready for NLP preprocessing or data analysis tasks.
+
+Note: Some process were explained in the notebook directly.
